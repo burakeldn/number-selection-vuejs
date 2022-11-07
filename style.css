@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;1,600&family=Poppins:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+.number {
+    list-style-type: none;
+    background: #131415;
+    color: #a1b2c3;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.number:hover{
+    background-color: #363738;
+    color: white;
+}
+
+.number.selected {
+    background: #00ADB5;
+    color: white;
+}
+
+h2{
+    background: #131415;
+    color: #a1b2c3;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 h3{
+    background: #131415;
+    color:  #a1b2c3;
+    margin: 20px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .snum{
+    list-style-type: none;
+    padding: 10px 10px;
+    border: solid #00ADB5;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
